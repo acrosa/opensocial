@@ -15,6 +15,10 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{opensocial}
   s.rubygems_version = %q{1.2.0}
   s.summary = %q{OpenSocial Google Gem. Gemified by Robert R Evans}
+  s.add_dependency "oauth"
+  s.add_dependency "json"
+  s.add_dependency "active_support"
+  s.add_dependency "action_controller"
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
